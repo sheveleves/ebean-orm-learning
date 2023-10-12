@@ -38,3 +38,8 @@ dependencies {
 test {
     useJUnitPlatform()
 }
+
+task generateMigration(type: JavaExec) {
+    classpath = sourceSets.main.runtimeClasspath
+    mainClass = 'MigrationGenerator'
+}
