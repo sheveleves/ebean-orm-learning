@@ -4,6 +4,9 @@ plugins {
     id 'application'
 }
 
+application {
+    mainClass = 'App'
+}
 group = 'org'
 version = '1.0-SNAPSHOT'
 
